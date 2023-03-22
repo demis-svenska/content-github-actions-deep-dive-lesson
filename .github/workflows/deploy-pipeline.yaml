@@ -1,4 +1,4 @@
-name: Deploy Lambda Function-demis
+name: Deploy Lambda Function
 on: [push]
 
 jobs:
