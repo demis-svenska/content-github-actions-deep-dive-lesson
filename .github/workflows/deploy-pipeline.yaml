@@ -53,7 +53,7 @@ jobs:
       - name: download artifact
         uses: actions/download-artifact@v3
         with:
-          name: my-artifact.zip
+          name: ${{ github.sha }}.zip
 
   publish2:
     if: false
